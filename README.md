@@ -13,7 +13,7 @@ Entender o SCM pode além de fazer sentido em um momento que temos que organizar
 
 Portanto nosso objetivo principal com esse repositório é descrever o método de cálculo e nomenclatura do SCM da Cidade de São Paulo em divervos formatos e dessa forma disseminar e educar para a cartografia.
 
-# Metodologia
+## Metodologia
 
 Pretendemos utilizar utilizar alguns recursos didáticos como apresentações, imagens gráficos e até animações para compreender como chegamos até as quadrículas de SCM. Nesse percurso, vamos introduzindo assuntos da cartografia afim de que ao final possamos reproduzir algoritimicamente as quadrículas SCM que estão disponíveis para download no GeoSampa.
 Para tanto vamos usar metodologias que podem ser reproduzidas tanto em softwares SIG, como é o caso do QGis, mas com o tempo pretendemos atender a todos os gostos: aos matemáticos com as fórmulas, aos programadores com bibliotecas em JavaScript e aos cientistas de dados e a galera da cartografia pessada Notebooks em Python com GeoPandas.
