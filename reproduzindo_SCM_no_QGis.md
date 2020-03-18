@@ -27,17 +27,19 @@ Vamos gerar um tipo de `linha` e a cada `0.125` graus em cada uma das direções
 
 [imagem]
 
-## Gerando o grid de 1:10.000
+## Gerando o grids das outras escalas
 
-Agora precisamos dividir o grid de 1:25.000 em 6 quadriculas, sendo 3 no sentido horizontal e 2 no sentido vertical, que resultam respectivamente em distancias de 0.041666667 graus e 0.0625 graus
+Agora precisamos ir gerando grids para cada uma das escalas conforme a tabela seguinte. Para fins didáticos é interessante ir fazendo uma a uma, mas podemos ir direto para a escala de 1:1000 e gerar o mesmo MDC que temos baixado. A questão é somente nomear essas quadrículas. Para isso a ferramenta mais adequada talvez seja a programação. 
 
-## Gerando o grid de 1:5.000
+## Resumo Tabela de escalas
 
-Agora precisamos dividir o grid de 1:10.000 em 4 quadriculas, que resultam respectivamente em distancias de 0.03125 graus e 0.02083334 graus
-
-## Gerando o grid de 1:2.500
-
-Agora precisamos dividir o grid de 1:5.000 em 4 quadriculas, que resultam respectivamente em distancias de 0.015625 graus e 0.01041667 graus
+|Escala     |Div Horizontal	|Div Vertical	|GMS Horizontal	|GMS Vertical	|Decimal Horizontal	|Decimal Vertical |
+|-----------|-------|-------|---------------|---------------|-------------------|-------------------|
+|1:25000	|-	    |-	    |0° 07' 30''	|0° 07' 30''	|0,125	            |0,125              |
+|1:10000	|2	    |3	    |0° 03' 45''	|0° 02' 30''	|0,0625         	|0,041666666666667  |
+|1:5000	    |2	    |2	    |0° 01' 53''	|0° 01' 15''	|0,03125        	|0,020833333333333  |
+|1:2500	    |3	    |2	    |0° 00' 38''	|0° 00' 38''	|0,010416666666667	|0,010416666666667  |
+|1:1000	    |2	    |2	    |0° 00' 19''	|0° 00' 19''	|0,005208333333333	|0,005208333333333  |
 
 
 
