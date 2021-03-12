@@ -18,6 +18,15 @@ Então vamos ter o SRC da camada em SIRGAS2000 UTM 23S (EPSG:31983) e a projeç�
 
 [Imagem]
 
+## Gerando o Grid do SCM
+
+O Grid inicial do SCM para fins de nomenclatura por digitos deve ser um quadrilátero de 1º por 1º, com uma divisão vertical a cada 0º 15' (minutos de grau) com as sequintes coordenadas:
+
+`-47.250, -46.250, -24.250, -23.250 [EPSG:4674]`
+
+Começando da esquerda para direita, cada uma das feições deve ser nomeada de 1 a 4.
+
+
 ## Gerando o grid 1:25.000
 
 Tudo configurado, podemos gerar a grade para a escala de 1:25.000. Para isso vamos clicar em `Vetor`, `Investigar` e `Criar grade ...`
