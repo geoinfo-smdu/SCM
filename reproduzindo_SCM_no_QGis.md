@@ -20,7 +20,7 @@ Então vamos ter o SRC da camada em SIRGAS2000 UTM 23S (EPSG:31983) e a projeç�
 
 ## Gerando o Grid do SCM
 
-O Grid inicial do SCM para fins de nomenclatura por digitos deve ser um quadrilátero de 1º por 1º, com uma divisão vertical a cada 0º 15' (minutos de grau) com as sequintes coordenadas:
+O Grid inicial do SCM para fins de nomenclatura por digitos deve ser um quadrilátero de 1° por 1°, com uma divisão vertical a cada 0º 15' (minutos de grau) com as sequintes coordenadas:
 
 `-47.250, -46.250, -24.250, -23.250 [EPSG:4674]`
 
